@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :students, only: [:index]
   
   get '/student/:id' to: 'student#show'
+  
 end
